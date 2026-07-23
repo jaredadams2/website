@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portal | Jays Professional Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 33, 71, 0.85), rgba(0, 33, 71, 0.85)), 
+                        url('https://images.unsplash.com/photo-1454165833767-027ffea9e77b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl md:text-2xl font-bold text-blue-900">Jays Professional Services</div>
+                <div class="hidden md:flex space-x-6 font-semibold text-gray-700">
+                    <a href="#home" class="hover:text-blue-600">Home</a>
+                    <a href="#portal" class="text-blue-600 font-bold">Client Portal</a>
+                    <a href="#services" class="hover:text-blue-600">Services</a>
+                    <a href="#contact" class="hover:text-blue-600">Contact</a>
+                </div>
+                <a href="#portal" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-bold hover:bg-blue-700">Client Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-bg h-[70vh] flex items-center justify-center text-center text-white pt-16">
+        <div class="max-w-4xl px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Tulare's Trusted Tax & Accounting Partner</h1>
+            <p class="text-xl mb-8 text-gray-200">Manage your taxes, documents, and payments all in one secure place.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#portal" class="bg-yellow-500 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 tracking-wide">ACCESS CLIENT PORTAL</a>
+                <a href="tel:5596436583" class="bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 italic font-serif">559-643-6583</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CLIENT HUB SECTION (THE NEW STUFF) -->
+    <section id="portal" class="py-20 bg-blue-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 italic">Client Digital Hub</h2>
+                <p class="text-gray-600 mt-2">Securely manage your financial business with us 24/7.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Scheduling -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center border-t-4 border-blue-500">
+                    <div class="text-blue-500 text-4xl mb-4"><i class="fas fa-calendar-alt"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Book Appointment</h3>
+                    <p class="text-gray-600 mb-6">Schedule a meeting with Jay at our Tulare office or via Zoom.</p>
+                    <a href="YOUR_CALENDLY_LINK_HERE" class="inline-block w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition">Schedule Now</a>
+                </div>
+
+                <!-- Secure Upload & Portal -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl text-center border-t-4 border-green-500 transform scale-105">
+                    <div class="text-green-500 text-4xl mb-4"><i class="fas fa-lock"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Secure Client Portal</h3>
+                    <p class="text-gray-600 mb-6">Upload W2s, view past tax returns, and sign documents securely.</p>
+                    <a href="YOUR_PORTAL_LINK_HERE" class="inline-block w-full bg-green-600 text-white py-3 rounded-lg font-bold hover:bg-green-700 transition">Login / Upload</a>
+                </div>
+
+                <!-- Billing -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center border-t-4 border-yellow-500">
+                    <div class="text-yellow-500 text-4xl mb-4"><i class="fas fa-credit-card"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Pay Invoice</h3>
+                    <p class="text-gray-600 mb-6">Quickly pay your preparation or accounting fees via credit card.</p>
+                    <a href="YOUR_PAYMENT_LINK_HERE" class="inline-block w-full bg-yellow-500 text-blue-900 py-3 rounded-lg font-bold hover:bg-yellow-400 transition">Pay Online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & About (Abbreviated) -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-blue-900 mb-12">Professional Services</h2>
+            <div class="grid md:grid-cols-2 gap-12 text-left">
+                <div class="flex gap-4">
+                    <div class="text-blue-600 text-2xl"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h4 class="font-bold text-lg">Income Tax Preparation</h4>
+                        <p class="text-gray-600">Individual, Corporate, and Partnership returns with a focus on maximizing your refund.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-blue-600 text-2xl"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h4 class="font-bold text-lg">Small Business Accounting</h4>
+                        <p class="text-gray-600">Full-service bookkeeping and monthly financial reporting to help you scale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:row">
+                <div class="p-12 md:w-full">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-4">Visit Our Tulare Office</h2>
+                    <p class="text-xl mb-6">157 S K St. Tulare CA 93274</p>
+                    <div class="h-64 bg-gray-200 rounded-xl mb-6">
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.828135898394!2d-119.3456385!3d36.2071988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809497e7f7f3f4e3%3A0x6b6c0e5a9c0f0f0!2s157%20S%20K%20St%2C%20Tulare%2C%20CA%2093274!5e0!3m2!1sen!2sus!4v1710000000000" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-600">Call: 559-643-6583</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-950 text-white py-10 text-center">
+        <p>&copy; 2024 Jays Professional Services | Tulare, CA</p>
+    </footer>
+
+</body>
+</html>
+
+<!-- Security Section -->
+<div class="bg-white py-10">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 border-2 border-green-100 p-6 rounded-2xl bg-green-50">
+            <div class="text-green-600 text-5xl">
+                <i class="fas fa-shield-check"></i> <!-- Requires FontAwesome 6 -->
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-gray-800 uppercase tracking-tight">Bank-Level Security Guaranteed</h3>
+                <p class="text-gray-600">At Jays Professional Services, we protect your data with <strong>Multi-Factor Authentication (MFA)</strong> and 256-bit encryption. Your financial documents are never shared and are stored on secure, IRS-compliant servers.</p>
+            </div>
+        </div>
+    </div>
+</div>
